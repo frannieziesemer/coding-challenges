@@ -13,9 +13,9 @@ def checkPalindrome(palindrome):
     reversedString = originalString[::-1]
  
     if originalString == reversedString:
-        print(True)
+        return True
     else:
-        print(False)
+        return False
 
 
 
