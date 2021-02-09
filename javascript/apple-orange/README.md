@@ -14,10 +14,11 @@ understand the input:
     t = end of sams house- number
     a = location of apple tree- number
     b = location of orange tree - number
-    apples and oranges array of where fruits land```
+    apples and oranges array of where fruits land
+```
 
 describe how to execute function:
-```  i want to find how many apples and oranges land on sams house so between s and t 
+```i want to find how many apples and oranges land on sams house so between s and t 
     add m[i] to a to find the distance of each apple from the apple tree 
-    and n[i] to b to find the distance of each from the orange tree 
+    add n[i] to b to find the distance of each from the orange tree 
         if the distance falls between s and t then we can say that the apple or orange fell on the house  ```
