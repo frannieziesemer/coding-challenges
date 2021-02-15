@@ -29,6 +29,6 @@ wash_hands(7, 9) ➞ "661 minutes and 30 seconds"
       total minutes = total seconds / 60 
         this returns a decimal number 
         extract minutes amount and then convert decimal back to seconds 
-        modulo ?
+        minutes % 1  * 60 
       output= duration in minutes and seconds person spends washing hands 
 
