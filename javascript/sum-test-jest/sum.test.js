@@ -1,5 +1,3 @@
-const { timeStamp } = require('console');
-const { hasUncaughtExceptionCaptureCallback } = require('process');
 const sum = require('./sum');
 
 test('add 1+2 to equal 3', () => {

@@ -10,16 +10,8 @@ def checkPalindrome(palindrome):
     """
     originalString = str(palindrome)
     originalString = ''.join(e for e in originalString if e.isalnum()).lower()
-    reversedString = originalString[::-1]
- 
-    if originalString == reversedString:
-        return True
-    else:
-        return False
+    
+    return True if originalString == originalString[::-1] else False
 
 
 
-checkPalindrome('MADAM')
-checkPalindrome(65456)
-checkPalindrome('hello')
-checkPalindrome('Was it a car or a cat I saw?')
